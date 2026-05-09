@@ -2,6 +2,8 @@
 
 mkdir -p  ~/.local/bin
 cp ytb  ~/.local/bin
-echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
-chmod ug+rwx ytb
+if ! grep 'export PATH="$HOME/.local/bin:$PATH' ~/.bashrc; then
+	echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
+fi
+chmod ug+rwx ~/.local/bin/ytb
 echo 'Installation done!'
