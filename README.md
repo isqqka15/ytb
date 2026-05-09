@@ -18,4 +18,3 @@
 3. Enjoy! :P
 =======
 3. Enjoy! :P
->>>>>>> 65fefe1 (Installation added)

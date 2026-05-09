@@ -1,0 +1,5 @@
+#!/bin/bash
+
+read -p "Enter your search:" search
+url=$(echo "$search" | sed 's/ /+/')
+firefox https://www.youtube.com/results?search_query="$url"

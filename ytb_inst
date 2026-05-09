@@ -1,0 +1,7 @@
+#!/bin/bash
+
+mkdir -p  ~/.local/bin
+cp ytb  ~/.local/bin
+echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
+chmod ug+rwx ytb
+echo 'Installation done!'
