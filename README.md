@@ -14,7 +14,5 @@
 ./ytb_inst
 ```
 
-<<<<<<< HEAD
-3. Enjoy! :P
-=======
+
 3. Enjoy! :P
