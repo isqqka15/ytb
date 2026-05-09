@@ -9,10 +9,15 @@
    git clone https://github.com/isqqka15/ytb
 ```
 
-2. Activate  installation script.
+2. Change directory to 'ytb'
+```bash
+   cd ytb/
+``` 
+
+3. Activate  installation script.
 ```bash
 ./ytb_inst
 ```
 
 
-3. Enjoy! :P
+4. Enjoy! :P
